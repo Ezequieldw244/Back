@@ -1,0 +1,23 @@
+{
+  "name": "ej05",
+  "version": "1.0.0",
+  "description": "rest example",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.17.1",
+    "method-override": "^2.3.10",
+    "mongoose": "^4.13.19",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
+}
